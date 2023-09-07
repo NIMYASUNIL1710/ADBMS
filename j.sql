@@ -1,9 +1,9 @@
 
-create table "anand" (id number(10) primary key, name varchar2(100));
+create table "nimya" (id number(10) primary key, name varchar2(100));
 
-create or replace procedure INSERTanand (id IN number, name IN varchar2) is
+create or replace procedure INSERTnimya (id IN number, name IN varchar2) is
 
 begin
-  insert into "anand" values (id, name);
+  insert into "nimya" values (id, name);
 end;
 /
